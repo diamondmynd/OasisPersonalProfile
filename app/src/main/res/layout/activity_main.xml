@@ -47,8 +47,8 @@
             android:layout_marginTop="?attr/actionBarSize"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/capture"
-            android:civ_border_width="1dp"
-            android:civ_border_color="@android:color/white"/>
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/white"/>
 
         <TextView
             android:layout_marginTop="10dp"
@@ -209,18 +209,18 @@
             android:layout_alignParentLeft="true"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="64dp"
-            android:civ_border_color="@android:color/white"
-            android:civ_border_width="1dp"
-            android:src="@drawable/dubai" />
+            android:layout_marginTop="60dp"
+            android:src="@drawable/dubai"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="2dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/destination_image"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="42dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="17dp"
             android:paddingTop="10dp"
             android:text="Dubai"
             android:textColor="@color/profile_background"
@@ -237,8 +237,8 @@
             android:layout_marginLeft="156dp"
             android:layout_marginTop="58dp"
             android:layout_toRightOf="@+id/destination_image"
-            android:civ_border_color="@android:color/white"
-            android:civ_border_width="1dp"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="2dp"
             android:src="@drawable/vegas" />
 
         <TextView
@@ -246,7 +246,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/destination_image2"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="26dp"
             android:layout_marginRight="159dp"
             android:paddingTop="10dp"
             android:text="Las Vegas"
@@ -261,22 +261,22 @@
             android:layout_below="@id/viewpager"
             android:layout_alignParentLeft="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="292dp"
-            android:layout_marginTop="59dp"
+            android:layout_marginLeft="287dp"
+            android:layout_marginTop="60dp"
             android:layout_toRightOf="@+id/destination_image2"
-            android:civ_border_color="@android:color/white"
-            android:civ_border_width="1dp"
-            android:src="@drawable/niagara" />
+            android:src="@drawable/niagara"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="2dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/destination_image3"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="13dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="36dp"
             android:paddingTop="10dp"
-            android:text="Niagara Falls"
+            android:text="Niagara"
             android:textColor="@color/profile_background"
             android:textSize="20sp"
             android:textStyle="bold" />
